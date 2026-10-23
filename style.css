@@ -114,3 +114,11 @@ footer{border-top:0}
 .legal h2{font-size:1.6rem;margin-bottom:.8rem}
 .legal p,.legal li{color:#c3c9db}.legal .list{padding-left:1.1rem;display:grid;gap:.5rem}
 @media(max-width:860px){.rail ul{gap:1rem}.rail ul a{font-size:.65rem;letter-spacing:.12em}.legal article{grid-template-columns:2.5rem 1fr}}
+.filters{display:flex;gap:.6rem;flex-wrap:wrap;padding:0 6vw}
+.filters button{background:transparent;border:1px solid var(--line);color:var(--m);padding:.55rem 1.2rem;font:inherit;font-size:.75rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;cursor:pointer;transition:.3s}
+.filters button:hover{color:var(--w);border-color:var(--b)}
+.filters button[aria-pressed=true]{background:var(--w);color:#000;border-color:var(--w);box-shadow:0 0 24px rgba(92,200,255,.5)}
+.pill.v{border-color:var(--b);color:var(--b)}
+.src{display:inline-block;margin-top:.7rem;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-decoration:none;border-bottom:1px solid var(--v);color:var(--w)}
+.src:hover{color:var(--b)}
+.hidden{display:none!important}.empty{color:var(--m)}
