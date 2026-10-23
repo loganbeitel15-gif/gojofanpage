@@ -122,3 +122,11 @@ footer{border-top:0}
 .src{display:inline-block;margin-top:.7rem;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-decoration:none;border-bottom:1px solid var(--v);color:var(--w)}
 .src:hover{color:var(--b)}
 .hidden{display:none!important}.empty{color:var(--m)}
+
+.webring{width:fit-content;margin:1.4rem 0 .4rem;border:1px solid var(--line);text-align:center;background:#000;box-shadow:0 0 24px rgba(92,200,255,.12)}
+.webring .wr-t{margin:0;padding:.5rem 1rem;font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:var(--m);border-bottom:1px solid var(--line)}
+.webring .wr-l{display:flex}
+.webring .wr-l a{flex:1;padding:.55rem 1rem;font-size:.75rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:var(--w);border-right:1px solid var(--line);transition:.3s;white-space:nowrap}
+.webring .wr-l a:last-child{border-right:0}
+.webring .wr-l a:hover{color:var(--b);background:rgba(92,200,255,.06)}
+@media(max-width:560px){.webring{width:100%}.webring .wr-l{flex-direction:column}.webring .wr-l a{border-right:0;border-top:1px solid var(--line)}}
